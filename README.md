@@ -1,5 +1,6 @@
 # EEG-preprocessing
 Automatic EEG data preprocessing using EEGLAB
+
 Here are the steps taken:
 Channel rejection: using Reject data using Clean Rawdata and ASR. Channels that were deemed problematic were rejected.
 Bandpass filtering: A finite impulse response (FIR) filter was applied to the EEG data to pass frequencies between 0.5 Hz and 40 Hz. This filtering step helps to focus on the relevant frequency range for EEG analysis.
